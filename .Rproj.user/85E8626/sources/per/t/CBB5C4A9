@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1512435477678.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1102807184",
+    "id" : "CBB5C4A9",
+    "lastKnownWriteTime" : 1512503034,
+    "last_content_update" : 1512503034266,
+    "path" : "~/Documents/r/packages/gluR/R/theme_glu.R",
+    "project_path" : "R/theme_glu.R",
+    "properties" : {
+        "cursorPosition" : "14,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

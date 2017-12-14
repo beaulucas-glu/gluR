@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1512435207219.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2110272155",
+    "id" : "59075A75",
+    "lastKnownWriteTime" : 1512435382,
+    "last_content_update" : 1512435382409,
+    "path" : "~/Documents/r/packages/gluR/inst/rmarkdown/templates/insight/skeleton/skeleton.Rmd",
+    "project_path" : "inst/rmarkdown/templates/insight/skeleton/skeleton.Rmd",
+    "properties" : {
+        "cursorPosition" : "12,3",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

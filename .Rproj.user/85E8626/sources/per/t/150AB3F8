@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1512498950470.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "803914517",
+    "id" : "150AB3F8",
+    "lastKnownWriteTime" : 1512509902,
+    "last_content_update" : 1512509902,
+    "path" : "~/Documents/adhoc/gluR_testing.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "17,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,38 @@
+setwd("~/Documents/r/packages")
+detachAllPackages <- function() {
+
+  basic.packages <- c("package:stats","package:graphics","package:grDevices","package:utils","package:datasets","package:methods","package:base")
+
+  package.list <- search()[ifelse(unlist(gregexpr("package:",search()))==1,TRUE,FALSE)]
+
+  package.list <- setdiff(package.list,basic.packages)
+
+  if (length(package.list)>0)  for (package in package.list) detach(package, character.only=TRUE)
+
+}
+
+detachAllPackages()
+unloadNamespace("gluR")
+unloadNamespace("ggplot2")
+devtools::install("gluR")
+require(gluR)
+require(tidyverse)
+
+ggplot(mtcars, aes(x = wt, y = mpg, colour = interaction(as.factor(cyl), as.factor(gear)))) +
+  geom_point(alpha = 1) +
+  geom_smooth(se = FALSE) +
+  theme_minimal() +
+  scale_color_glu()
+
+ggplot(mtcars, aes(x = wt, y = mpg, colour = as.factor(cyl))) +
+  geom_point(alpha = 1) +
+  geom_smooth(se = FALSE) +
+  theme_minimal() +
+  scale_color_glu()
+gluR::ggplot(diamonds, aes(x = carat, y = price, colour = clarity)) +
+  geom_point()
+
+scale_color_glu <- ggplot2::scale_color_manual(values = c("#2CDBFC", "#FFBC28", "#406CFC", "#FF9128"))
+
+
+#ggplot <- ggplot2::ggplot + ggplot2::theme_minimal()

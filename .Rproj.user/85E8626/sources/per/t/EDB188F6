@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1512501045041.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1137749031",
+    "id" : "EDB188F6",
+    "lastKnownWriteTime" : 1512606616,
+    "last_content_update" : 1512606616525,
+    "path" : "~/Documents/r/packages/gluR/R/scales_glu.R",
+    "project_path" : "R/scales_glu.R",
+    "properties" : {
+        "cursorPosition" : "51,60",
+        "scrollLine" : "41",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

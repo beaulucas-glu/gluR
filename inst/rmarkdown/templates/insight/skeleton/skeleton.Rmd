@@ -1,0 +1,21 @@
+---
+title: "Basic Insight"
+author: "Beau Lucas"
+date: "12/4/2017"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+require(plotly)
+require(tidyverse)
+require(ggrepel)
+```
+
+```{r load data}
+
+
+```
